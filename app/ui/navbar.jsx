@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useEffect, useRef, useState } from 'react';
-import logo from "@/public/logo.svg";
 import Link from 'next/link';
 import Logo from './logo';
 import { usePathname } from 'next/navigation';
@@ -79,7 +78,7 @@ export default function Navbar() {
     return (
         <div className={`sticky top-0 navbar z-20 w-full h-max bg-white  overflow-visible flex flex-col items-center before:z-[-1] ${pathName !== "/" && "before:hidden"} `}>
             <div className="container_max_width px-6 w-full relative justify-between items-center flex gap-5 h-[50px] overflowY-visible">
-                <Logo logoImage={logo} />
+                <Logo logoImage={"logo.svg"} />
 
                 {win?.innerWidth < 1024 &&
                     <div className=' w-max h-max' onClick={handleClick} >

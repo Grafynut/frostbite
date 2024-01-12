@@ -102,7 +102,7 @@ export default function HeroSection() {
                                             onClick={(e) => handleClick(e, i)}
                                         >
                                             <Image
-                                                src={`${item.image.src}`}
+                                                src={`${item.image}`}
                                                 width={active === i ? displayWidth(768) ? 500 : 1080 : 100}
                                                 height={active === i ? displayWidth(768) ? 500 : 1080 : 100}
                                                 alt="images"

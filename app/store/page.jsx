@@ -122,7 +122,7 @@ export default function StorePage() {
                             onLoad={() => console.log("load")}
                             className="w-full h-full"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31632.976355446248!2d-86.77537090070786!3d33.55319308645901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88891aa4f6775025%3A0x9326a00858ed2b68!2sBirmingham-Shuttlesworth%20International%20Airport!5e0!3m2!1sen!2sin!4v1704477449936!5m2!1sen!2sin"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 }
             </div>

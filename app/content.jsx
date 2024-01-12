@@ -1,34 +1,34 @@
-import card1 from "../public/Products/hero_slider_1.png"
-import card2 from "../public/products/hero_slider_2.png"
-import card3 from "../public/products/hero_slider_3.png"
-import card4 from "../public/products/hero_slider_4.png"
-import featuredImage from "../public/Products/cup_ice_cream.png";
+// import card1 from "/Products/hero_slider_1.png"
+// import card2 from "/products/hero_slider_2.png"
+// import card3 from "/products/hero_slider_3.png"
+// import card4 from "/products/hero_slider_4.png"
+// import featuredImage from "@/public/Products/cup_ice_cream.png";
 
-import image1 from "../public/Products/cardp/image1.png";
-import image2 from "../public/Products/cardp/image2.png";
-import image3 from "../public/Products/cardp/image3.png";
-import image4 from "../public/Products/cardp/image4.png";
+// import image1 from "@/public/Products/cardp/image1.png";
+// import image2 from "@/public/Products/cardp/image2.png";
+// import image3 from "@/public/Products/cardp/image3.png";
+// import image4 from "@/public/Products/cardp/image4.png";
 
 export const heroImages = [
 
     {
-        image: card1
+        image: "/products/hero_slider_1.png"
     },
     {
-        image: card2
+        image: "/products/hero_slider_2.png"
     },
     {
-        image: card3
+        image: "/products/hero_slider_3.png"
     },
     {
-        image: card4
+        image: "/products/hero_slider_4.png"
     },
 
 ]
 
 export const featuredContent = [
     {
-        // image: featuredImage,
+        image: "/Products/cup_ice_cream.png",
         features: [
             {
                 text: "chocolate",
@@ -54,28 +54,28 @@ export const featuredContent = [
 
 export const products = [
     {
-        image: image1,
+        image: "/Products/cardp/image1.png",
         name: "Blackberry Balsamic Bonanza",
         price: 50
     },
     {
-        image: image2,
+        image: "/Products/cardp/image2.png",
         name: "Caramel Cognac Cascade",
         price: 50
     },
     {
-        image: image3,
+        image: "/Products/cardp/image3.png",
         name: "Pistachio Rosewater Parfait",
 
         price: 50
     }
     , {
-        image: image4,
+        image: "/Products/cardp/image4.png",
         name: "Beetroot & Blood Orange Blast",
         price: 50
     },
     {
-        image: image1,
+        image: "/Products/cardp/image1.png",
         name: "Blackberry Balsamic Bonanza",
         price: 50
     },

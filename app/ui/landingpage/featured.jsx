@@ -89,6 +89,8 @@ export default function Featured(props) {
                             src={featuredContent[0].image}
                             className="aspect-square object-contain object-center w-full overflow-hidden self-stretch "
                             alt="featured images"
+                            width={500}
+                            height={500}
                         />
                     </div>
                 </div>
