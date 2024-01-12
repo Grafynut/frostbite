@@ -1,5 +1,5 @@
 // import card1 from "/Products/hero_slider_1.png"
-// import card2 from "/products/hero_slider_2.png"
+// import card2 from "/Products/hero_slider_2.png"
 // import card3 from "/products/hero_slider_3.png"
 // import card4 from "/products/hero_slider_4.png"
 // import featuredImage from "@/public/Products/cup_ice_cream.png";
@@ -12,23 +12,23 @@
 export const heroImages = [
 
     {
-        image: "/products/hero_slider_1.png"
+        image: "/Products/hero_slider_1.png"
     },
     {
-        image: "/products/hero_slider_2.png"
+        image: "/Products/hero_slider_2.png"
     },
     {
-        image: "/products/hero_slider_3.png"
+        image: "/Products/hero_slider_3.png"
     },
     {
-        image: "/products/hero_slider_4.png"
+        image: "/Products/hero_slider_4.png"
     },
 
 ]
 
 export const featuredContent = [
     {
-        image: "/products/cup_ice_cream.png",
+        image: "/Products/cup_ice_cream.png",
         features: [
             {
                 text: "chocolate",
@@ -54,28 +54,28 @@ export const featuredContent = [
 
 export const products = [
     {
-        image: "/products/cardp/image1.png",
+        image: "/Products/cardp/image1.png",
         name: "Blackberry Balsamic Bonanza",
         price: 50
     },
     {
-        image: "/products/cardp/image2.png",
+        image: "/Products/cardp/image2.png",
         name: "Caramel Cognac Cascade",
         price: 50
     },
     {
-        image: "/products/cardp/image3.png",
+        image: "/Products/cardp/image3.png",
         name: "Pistachio Rosewater Parfait",
 
         price: 50
     }
     , {
-        image: "/products/cardp/image4.png",
+        image: "/Products/cardp/image4.png",
         name: "Beetroot & Blood Orange Blast",
         price: 50
     },
     {
-        image: "/products/cardp/image1.png",
+        image: "/Products/cardp/image1.png",
         name: "Blackberry Balsamic Bonanza",
         price: 50
     },
