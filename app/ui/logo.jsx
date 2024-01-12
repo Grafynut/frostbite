@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+
 export default function Logo({ logoImage, CStyle, handleClick }) {
     return (
         <Link href={"/"} className=' w-max h-max' onPointerDown={handleClick}>

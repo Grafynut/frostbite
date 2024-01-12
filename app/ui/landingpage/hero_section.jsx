@@ -1,33 +1,12 @@
 "use client";
 
 import Image from "next/image";
-// import { heroImages } from "../../content";
+import { heroImages } from "../../content";
 import { useEffect, useState, useRef } from "react";
 import { displayWidth } from "@/app/lib/globalFunc";
 import gsap from "gsap";
 import HeroHeading from "../body/cardComponents/heroHeading";
 
-// images 
-import card1 from "@/public/Products/hero_slider_1.png"
-import card2 from "@/public/products/hero_slider_2.png"
-import card3 from "@/public/products/hero_slider_3.png"
-import card4 from "@/public/products/hero_slider_4.png"
-
-const heroImages = [
-    {
-        image: card1
-    },
-    {
-        image: card2
-    },
-    {
-        image: card3
-    },
-    {
-        image: card4
-    },
-
-]
 
 export default function HeroSection() {
 

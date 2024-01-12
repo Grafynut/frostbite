@@ -28,7 +28,7 @@ export const heroImages = [
 
 export const featuredContent = [
     {
-        image: featuredImage,
+        // image: featuredImage,
         features: [
             {
                 text: "chocolate",

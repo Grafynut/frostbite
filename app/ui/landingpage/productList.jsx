@@ -1,46 +1,11 @@
 "use client"
 
 import ProductListCard from "../body/cardComponents/productListCard";
-// import { products } from "@/app/content";
+import { products } from "@/app/content";
 import Heading from "../body/heading";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-
-// content
-import image1 from "@/public/Products/cardp/image1.png";
-import image2 from "@/public/Products/cardp/image2.png";
-import image3 from "@/public/Products/cardp/image3.png";
-import image4 from "@/public/Products/cardp/image4.png";
-
-const products = [
-    {
-        image: image1,
-        name: "Blackberry Balsamic Bonanza",
-        price: 50
-    },
-    {
-        image: image2,
-        name: "Caramel Cognac Cascade",
-        price: 50
-    },
-    {
-        image: image3,
-        name: "Pistachio Rosewater Parfait",
-
-        price: 50
-    }
-    , {
-        image: image4,
-        name: "Beetroot & Blood Orange Blast",
-        price: 50
-    },
-    {
-        image: image1,
-        name: "Blackberry Balsamic Bonanza",
-        price: 50
-    },
-]
 
 export default function ProductList() {
     const productsData = [...products, ...products, ...products, ...products]

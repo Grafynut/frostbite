@@ -6,7 +6,6 @@ import Heading from "../body/heading";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import featuredImage from "@/public/Products/cup_ice_cream.png";
 
 export default function Featured(props) {
     const featured = useRef();
@@ -87,7 +86,7 @@ export default function Featured(props) {
                 <div className="flex flex-col items-stretch w-[35%] my-9">
                     <div className="imagesection flex grow flex-col items-center p-6 my-9">
                         <Image
-                            src={featuredImage}
+                            src={featuredContent[0].image}
                             className="aspect-square object-contain object-center w-full overflow-hidden self-stretch "
                             alt="featured images"
                         />
