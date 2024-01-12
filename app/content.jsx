@@ -1,14 +1,3 @@
-// import card1 from "/Products/hero_slider_1.png"
-// import card2 from "/Products/hero_slider_2.png"
-// import card3 from "/products/hero_slider_3.png"
-// import card4 from "/products/hero_slider_4.png"
-// import featuredImage from "@/public/Products/cup_ice_cream.png";
-
-// import image1 from "@/public/Products/cardp/image1.png";
-// import image2 from "@/public/Products/cardp/image2.png";
-// import image3 from "@/public/Products/cardp/image3.png";
-// import image4 from "@/public/Products/cardp/image4.png";
-
 export const heroImages = [
 
     {

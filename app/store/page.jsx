@@ -8,6 +8,8 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useEffect, useRef } from "react";
 
+
+
 export default function StorePage() {
     const pathName = usePathname();
     const store = useRef();
@@ -96,6 +98,7 @@ export default function StorePage() {
 
         return () => ctx.revert();
     }, [])
+
 
 
     return (

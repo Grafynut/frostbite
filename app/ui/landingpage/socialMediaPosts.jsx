@@ -21,30 +21,31 @@ export default function SocialMediaPosts(props) {
             })
 
             gsap.to(imageDiv[0], {
-                x: "-50%",
+                x: "-100",
                 opacity: 0
             })
 
             gsap.to(imageDiv[1], {
-                y: "-50%",
+                y: "-100",
                 opacity: 0
             })
             gsap.to(imageDiv[2], {
-                y: "50%",
+                y: "100",
                 opacity: 0
             })
             gsap.to(imageDiv[3], {
-                y: "50%",
+                y: "100",
                 opacity: 0
             })
             gsap.to(imageDiv[4], {
-                x: "50%",
+                x: "100",
                 opacity: 0
             })
             gsap.to(imageDiv[5], {
-                x: "50%",
+                x: "100",
                 opacity: 0
             })
+
             imageDiv.forEach((element, index) => {
                 ScrollTrigger.create({
                     trigger: socialMediaContainer.current,
